@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "<h1>Hello from Flask**! 🚀</h1><p>Deployed via GitHub Actions CI/CD</p>"
+    return "<h1>Hello from Flask**! 🚀</h1><p>Deployed via GitHub Actions CI/CD successfully</p>"
 
 @app.route("/health")
 def health():
